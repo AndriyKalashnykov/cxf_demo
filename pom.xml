@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+         http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>demo.cxf</groupId>
+    <artifactId>demo.cxf.parent.pom</artifactId>
+    <version>1.0.0</version>
+	<packaging>pom</packaging>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<junit.version>4.12</junit.version>
+        <cxf.version>3.1.5</cxf.version>
+        <jackson.version>1.9.13</jackson.version>
+        <jackson-jaxrs-json-provider.version>2.6.2</jackson-jaxrs-json-provider.version>
+        <spring.version>4.2.1.RELEASE</spring.version>
+        <servlet.version>3.0.1</servlet.version>
+        <shiro.version>1.2.4</shiro.version>
+    </properties>
+
+    <dependencies>
+        <!-- JUnit -->
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>${junit.version}</version>
+            <scope>test</scope>
+        </dependency>
+	</dependencies>
+	
+  <modules>
+    <module>cxf_annotation</module>
+    <module>rest_cxf</module>
+    <module>rest_spring_cxf</module>
+    <module>rest_spring_cxf_shiro</module>
+    <module>soap_cxf</module>
+    <module>soap_jdk</module>
+    <module>soap_jdk_web</module>
+    <module>soap_spring_cxf</module>
+    <module>soap_spring_cxf_wss4j</module>
+  </modules>	
+</project>

@@ -10,11 +10,14 @@
     <artifactId>rest_cxf</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+    <parent>
+        <groupId>demo.cxf</groupId>
+        <artifactId>demo.cxf.parent.pom</artifactId>
+        <version>1.0.0</version>
+    </parent>
+
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <junit.version>4.11</junit.version>
-        <cxf.version>3.0.0</cxf.version>
-        <jackson.version>1.9.13</jackson.version>
     </properties>
 
     <dependencies>
