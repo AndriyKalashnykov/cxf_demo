@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="soap_spring_cxf_wss4j:war">
+    <output-path>$PROJECT_DIR$/soap_spring_cxf_wss4j/target</output-path>
+    <root id="archive" name="soap_spring_cxf_wss4j-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="soap_spring_cxf_wss4j:war exploded" />
+    </root>
+  </artifact>
+</component>

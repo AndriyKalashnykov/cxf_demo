@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="soap_jdk_web:war">
+    <output-path>$PROJECT_DIR$/soap_jdk_web/target</output-path>
+    <root id="archive" name="soap_jdk_web-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="soap_jdk_web:war exploded" />
+    </root>
+  </artifact>
+</component>

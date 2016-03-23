@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <resourceExtensions />
+    <wildcardResourcePatterns>
+      <entry name="!?*.java" />
+      <entry name="!?*.form" />
+      <entry name="!?*.class" />
+      <entry name="!?*.groovy" />
+      <entry name="!?*.scala" />
+      <entry name="!?*.flex" />
+      <entry name="!?*.kt" />
+      <entry name="!?*.clj" />
+      <entry name="!?*.aj" />
+    </wildcardResourcePatterns>
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="false">
+        <processorPath useClasspath="true" />
+      </profile>
+      <profile default="false" name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="cxf_annotation" />
+        <module name="rest_cxf" />
+        <module name="rest_spring_cxf" />
+        <module name="rest_spring_cxf_shiro" />
+        <module name="soap_cxf" />
+        <module name="soap_jdk" />
+        <module name="soap_jdk_web" />
+        <module name="soap_spring_cxf" />
+        <module name="soap_spring_cxf_wss4j" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="cxf_annotation" target="1.5" />
+      <module name="parent" target="1.5" />
+      <module name="rest_cxf" target="1.5" />
+      <module name="rest_spring_cxf" target="1.5" />
+      <module name="rest_spring_cxf_shiro" target="1.5" />
+      <module name="soap_cxf" target="1.5" />
+      <module name="soap_jdk" target="1.5" />
+      <module name="soap_jdk_web" target="1.5" />
+      <module name="soap_spring_cxf" target="1.5" />
+      <module name="soap_spring_cxf_wss4j" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
