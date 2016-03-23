@@ -15,8 +15,19 @@
         </sourceRoots>
       </configuration>
     </facet>
+    <facet type="Spring" name="Spring">
+      <configuration>
+        <fileset id="fileset" name="Spring Application Context" removed="false">
+          <file>file://$MODULE_DIR$/soap_spring_cxf_wss4j/src/main/resources/spring-cxf-3.xml</file>
+          <file>file://$MODULE_DIR$/soap_spring_cxf_wss4j/src/main/resources/spring.xml</file>
+          <file>file://$MODULE_DIR$/soap_spring_cxf_wss4j/src/main/resources/spring-cxf.xml</file>
+          <file>file://$MODULE_DIR$/soap_spring_cxf_wss4j/src/main/resources/spring-cxf-4.xml</file>
+          <file>file://$MODULE_DIR$/soap_spring_cxf_wss4j/src/main/resources/spring-cxf-2.xml</file>
+        </fileset>
+      </configuration>
+    </facet>
   </component>
-  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8" inherit-compiler-output="false">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_5" inherit-compiler-output="false">
     <output url="file://$MODULE_DIR$/soap_spring_cxf_wss4j/target/classes" />
     <output-test url="file://$MODULE_DIR$/soap_spring_cxf_wss4j/target/test-classes" />
     <content url="file://$MODULE_DIR$/soap_spring_cxf_wss4j">
